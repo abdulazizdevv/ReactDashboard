@@ -1,17 +1,17 @@
 import "./assets/styles/index.css";
 import Aside from "./components/Aside/data";
 import { Header } from "./components/Header/UserCard";
-import { Footer } from "./components/Footer/Todo";
 import { Section } from "./components/Section/Section";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
-    <>
-      <Header />
+    <div className="container">
       <Aside />
-      <Footer />
+      <Header />
       <Section />
-    </>
+      <Footer />
+    </div>
   );
 };
 export default App;
