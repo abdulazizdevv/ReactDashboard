@@ -10,9 +10,9 @@ const App = () => {
       {/* <Header /> */}
       <div className="main-sect ">
         <Section />;
+        <Footer/>
       </div>
 
-      <Footer />
     </div>
   );
 };

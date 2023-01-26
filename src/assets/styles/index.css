@@ -20,10 +20,43 @@ body {
 .all-frame {
   background: #FFFFFF;
   /* grayscale / divider */
-  height: 546px;
-  width: 950px;
+  height: 550px;
+  width: 100%;
   /* border-radius: 8px; */
 
   border: 1px solid #DFE0EB;
   border-radius: 8px;
+}
+
+.left-f {
+  background: #FFFFFF;
+  /* grayscale / divider */
+
+  border: 1px solid #DFE0EB;
+  border-radius: 8px;
+  height: 336px;
+  width: 546px;
+  border-radius: 8px;
+
+}
+
+.task {
+  background: #FFFFFF;
+  /* grayscale / divider */
+
+  border: 1px solid #DFE0EB;
+  border-radius: 8px;
+  height: 336px;
+  width: 100%;
+  border-radius: 8px;
+
+}
+input[type=text] {
+  border-radius: 0px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom:  1px solid #DFE0EB;
 }
